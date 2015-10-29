@@ -22,7 +22,7 @@ public class ServicioTaxiTest {
 		horaInicio.set(Calendar.HOUR_OF_DAY, 6);		
 		s = new ServicioTaxi(horaInicio, horaInicio, 3, true, true);
 		importe = s.importeServicio();
-		assertTrue("El importe sale "+importe, importe== 11.71);
+		assertTrue("El importe sale "+importe, importe== 11.71); //aqui
 		
 		// {INTERURBANO, 7, False, M,5}
 		horaInicio.set(Calendar.DAY_OF_WEEK, Calendar.TUESDAY);
